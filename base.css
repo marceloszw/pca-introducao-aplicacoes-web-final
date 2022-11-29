@@ -1,0 +1,122 @@
+header {
+    display: block;
+    background-color: #4e4eed;
+    width: 100%;
+    outline: dashed 1px black;
+    
+}
+
+nav {
+    display: inline-block;
+    background-color: yellow; 
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+}
+
+ ul.menu li {
+     display: inline;
+
+ }
+
+.header_titulo {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.img_logo {
+    display: flex;
+    float: left;
+    margin-right: 20px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.titulo {
+    display: flex;
+    font-size: x-large;
+    font-weight: 700;
+    float: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: antiquewhite;
+}
+
+#principal {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#planetas {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#temas {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.box {
+    display: inline-table;
+    width: 150px;
+    height: 150px;
+    padding: 8px;
+    margin: 10px;
+    text-align: justify;
+    border: dashed 1px black;
+    box-sizing: border-box;
+ }
+
+ .box:hover {
+    cursor: pointer;
+    border-color: orange;
+ }
+
+ .box a:link { 
+    text-decoration: none;
+    color: black;
+}
+
+ .box a:visited { 
+    text-decoration: none; 
+    color: black;
+}
+
+ .box a:hover { text-decoration: none; }
+ 
+ .box a:active { text-decoration: none; }
+
+#descricao {
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#questoes {
+    display: none;
+    width: 70%;
+    margin: 70px auto;
+}
+
+#questao {
+    margin-top: 25px;
+}
+
+#botoes {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+#aprender {
+    display: none;
+}
+
+#enviar {
+    display: none;
+}
